@@ -1,0 +1,59 @@
+#wrap {
+    width: 800px;
+    height: 865px;
+    padding: 10px;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+header {
+    width: 600px;
+    height: 200px;
+    background: grey;
+    margin: 10px 10px;
+    position: relative;
+}
+section {
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 20px 10px;
+    position: relative;
+}
+article {
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px 10px;
+}
+#div1{
+    float: left;
+}
+footer {
+    width:  150px;
+    height: 840px;
+    border: 1px solid black;
+    margin: 10px 10px;
+}
+#div2{
+    float: right;
+}
+.box {
+    width: 400px;
+    height: 150px;
+    background: rgb(51, 113, 245);
+}
+header>.box{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+section .box{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+section .box:nth-last-child(1){
+    position: absolute;
+    top: 225px;
+    left: 25px;
+}
